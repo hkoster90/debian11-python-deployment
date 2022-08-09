@@ -16,4 +16,4 @@ make -j $CORES
 make altinstall
 python3.10 --version
 cd ..
-pip install -r requirements.txt
+pip3.10 install -r requirements.txt
