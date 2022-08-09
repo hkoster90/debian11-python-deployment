@@ -12,6 +12,8 @@ mkdir /tmp/debian11-python-deployment
 
 git clone https://github.com/nerdlertech/debian11-python-deployment.git /tmp/debian11-python-deployment
 
+cd /tmp/debian11-python-deployment
+
 wget wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz
 tar -xf Python-3.10.*.tgz
 cd Python-3.10.*/
